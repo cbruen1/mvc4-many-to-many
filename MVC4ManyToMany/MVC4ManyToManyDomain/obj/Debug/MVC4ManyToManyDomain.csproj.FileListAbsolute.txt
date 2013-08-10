@@ -1,0 +1,9 @@
+C:\Users\Ciaran\Documents\Visual Studio 2012\Projects\MVC4ManyToMany\MVC4ManyToManyDomain\bin\Debug\MVC4ManyToManyDomain.dll
+C:\Users\Ciaran\Documents\Visual Studio 2012\Projects\MVC4ManyToMany\MVC4ManyToManyDomain\bin\Debug\MVC4ManyToManyDomain.pdb
+C:\Users\Ciaran\Documents\Visual Studio 2012\Projects\MVC4ManyToMany\MVC4ManyToManyDomain\obj\Debug\MVC4ManyToManyDomain.dll
+C:\Users\Ciaran\Documents\Visual Studio 2012\Projects\MVC4ManyToMany\MVC4ManyToManyDomain\obj\Debug\MVC4ManyToManyDomain.pdb
+C:\Users\bruenci1\Dropbox\work\Code\MVC4ManyToMany\MVC4ManyToMany_Part3\MVC4ManyToMany\MVC4ManyToManyDomain\bin\Debug\MVC4ManyToManyDomain.dll
+C:\Users\bruenci1\Dropbox\work\Code\MVC4ManyToMany\MVC4ManyToMany_Part3\MVC4ManyToMany\MVC4ManyToManyDomain\bin\Debug\MVC4ManyToManyDomain.pdb
+C:\Users\bruenci1\Dropbox\work\Code\MVC4ManyToMany\MVC4ManyToMany_Part3\MVC4ManyToMany\MVC4ManyToManyDomain\obj\Debug\MVC4ManyToManyDomain.csprojResolveAssemblyReference.cache
+C:\Users\bruenci1\Dropbox\work\Code\MVC4ManyToMany\MVC4ManyToMany_Part3\MVC4ManyToMany\MVC4ManyToManyDomain\obj\Debug\MVC4ManyToManyDomain.dll
+C:\Users\bruenci1\Dropbox\work\Code\MVC4ManyToMany\MVC4ManyToMany_Part3\MVC4ManyToMany\MVC4ManyToManyDomain\obj\Debug\MVC4ManyToManyDomain.pdb

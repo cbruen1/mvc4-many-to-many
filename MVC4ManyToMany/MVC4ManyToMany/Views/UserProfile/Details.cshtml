@@ -1,0 +1,28 @@
+﻿@model MVC4ManyToMany.Models.ViewModels.UserProfileViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>UserProfileViewModel</legend>
+
+    <div>
+        @Html.DisplayForModel(Model)
+        
+        <p></p>
+
+        @foreach (var course in Model.Courses)
+        {
+            <div><span>@Html.CheckBox("Blah", course.Assigned, new { disabled = "disabled" })</span>&nbsp;
+                <span>@course.CourseDescription</span>
+            </div>
+        }
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.UserProfileID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

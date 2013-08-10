@@ -1,0 +1,8 @@
+﻿@model AssignedCourseData
+@using MVC4ManyToMany.Models.ViewModels;
+
+<fieldset>
+    @Html.HiddenFor(model => model.CourseID)    
+    @Html.CheckBoxFor(model => model.Assigned)
+    @Html.DisplayFor(model => model.CourseDescription)
+</fieldset>

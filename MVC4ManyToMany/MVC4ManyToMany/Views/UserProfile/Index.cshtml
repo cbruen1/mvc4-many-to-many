@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MVC4ManyToMany.Models.ViewModels.UserProfileViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserProfileID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserProfileID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>        
+        <td>
+            <ul>
+                @foreach (var course in item.Courses)
+                {
+                    <li>@course.CourseDescription</li>
+                }
+            </ul>
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.UserProfileID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.UserProfileID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.UserProfileID })
+        </td>
+    </tr>
+}
+
+</table>

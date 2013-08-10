@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title.</h1><br />
+    <h3>@ViewBag.Message</h3>
+</hgroup>
+
+<article>
+    <p>
+        Add / edit / delete users and register them for available courses.
+    </p>
+</article>
+
+<aside>
+    <h3>Links</h3>
+    <p>
+        Navigate the application using these links.
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+</aside>

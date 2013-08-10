@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1><br />
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                To learn more about me visit
+                <a href="http://www.linkedin.com/in/ciaranbruen" title="Ciaran Bruen">http://www.linkedin.com/in/ciaranbruen</a>.
+                The page features my <mark>work and education history</mark> as well as other details and interests.
+            </p>
+        </div>
+    </section>
+}
+
+<h4>Get started by clicking here to go to the User Profile page:</h4>
+<p>
+	@Html.ActionLink("User Profile Page", "Index", "UserProfile")
+</p>
+
+<h3>Some details about this project:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Developed in ASP.NET MVC4</h5>
+        ASP.NET MVC gives us a powerful, patterns-based way to build dynamic websites that
+        enables a clean separation of concerns and that gives you full control over markup
+        for enjoyable, agile development. ASP.NET MVC includes many features that enable
+        fast, TDD-friendly development for creating sophisticated applications that use
+        the latest web standards.
+        <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Learn more…</a>
+    </li>
+
+    <li class="two">
+        <h5>Uses Entity Framework Code First approach</h5>
+        Entity Framework Code First is an ORM tool that allows rapid database development where the model is defined in code.
+        <a href="http://msdn.microsoft.com/en-us/data/jj193542.aspx">Learn more…</a>
+    </li>
+
+    <li class="three">
+        <h5>CRUD functionality</h5>
+        Fully working CRUD (CReate /Update / Delete) application allowing us to add, edit, and delete records from our app.
+    </li>
+</ol>
