@@ -199,19 +199,5 @@ namespace MVC4ManyToMany.Controllers
                 }            
             }
         }
-
-        //private void DeleteRemovedAnimalGroups(StudyDesign studyDesign, StudyDesignViewModel studyDesignViewModel)
-        //{
-        //    var animalGroupViewModels = studyDesignViewModel.AnimalGroups ?? new List<AnimalGroupViewModel>();
-
-        //    var webAnimalGroupIDs = animalGroupViewModels.Select(webGroup => webGroup.AnimalGroupID);
-        //    var databaseAnimalGroupIDs = studyDesign.AnimalGroups.Select(dbGroup => dbGroup.AnimalGroupID);
-        //    var animalGroupsToDeleteIDs = databaseAnimalGroupIDs.Where(id => !webAnimalGroupIDs.Contains(id)).ToList();
-
-        //    foreach (var id in animalGroupsToDeleteIDs)
-        //    {
-        //        _studyDesignFacade.DeleteAnimalGroup(id);
-        //    }
-        //}
     }
 }
